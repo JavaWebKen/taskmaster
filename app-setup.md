@@ -123,3 +123,4 @@ docker run --name docker-mariadb \
 -d \
 mariadb:latest
 ```
+## Note:  Make sure Docker is running since mariadb is running as a Docker Container
