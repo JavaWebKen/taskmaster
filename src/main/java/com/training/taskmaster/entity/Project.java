@@ -21,7 +21,7 @@ public class Project {
     private String description;
 
     @OneToMany(mappedBy = "project", cascade = CascadeType.ALL,orphanRemoval = true)
-    @JsonManagedReference
+    @JsonManagedReference  // Do I need this?
     private List<Task> tasks;
 
     public void addTask(Task task) {
