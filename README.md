@@ -1,4 +1,24 @@
-#  Building an SPA Using Spring Framework 6 and Angular
+#  TaskMaster App
+
+## This app was originally built following this Pluralsight course:
+  
+[Building a Single Page App with Spring Boot and Angular](https://app.pluralsight.com/library/courses/spring-framework-angular-building-spa/table-of-contents)
+
+## Enhancements Made
+
+The following functionality was added beyond the original course material:
+
+- **Progress Bar** – Displays loading progress during operations.
+- **User Profile on Front End** – UI to show user-specific information.
+- **Minor Fixes** – Corrections to tutorial code that did not work as expected.
+
+## Future Updates
+- **Password Encryption** – Find a solution where password is not readable & best practice is followed.
+- **Deploy to AWS ECR** – Create MariaDB instance and deploy to a Dev Environment.
+- **Production Ready** – Cleanup app so that it could be deployed to production, but intent is a Dev env.
+- **Unit Tests** – Add Spring Tests and JUnit tests to ensure functionality works as expected.
+- **Logging** – Add better logging.
+
 
 
 ## Tools:
