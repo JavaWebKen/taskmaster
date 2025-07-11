@@ -1,5 +1,6 @@
 package com.training.taskmaster.controller;
 
+import com.training.taskmaster.dto.UserDTO;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -11,5 +12,5 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class AuthenticationResponse {
     private String token;
-
+    private UserDTO user;
 }
